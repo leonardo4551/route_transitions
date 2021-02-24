@@ -1,8 +1,8 @@
-name: route_transition
-description: A new Flutter package project.
-version: 0.0.1
-author:
-homepage:
+name: route_transition_lmg
+description: This package helps to improve the effect of screen transitions in an elegant and easy way to use.
+version: 0.0.2: https://github.com/leonardo4551/route_transitions/releases/tag/0.0.2
+version: 0.0.1: https://github.com/leonardo4551/route_transitions/releases/tag/0.0.1
+homepage: https://github.com/leonardo4551/route_transitions.git
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

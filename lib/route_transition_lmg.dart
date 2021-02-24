@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 
+/// Types of animations
 enum AnimationType {
   normal,
   fadeIn,
 }
 
+/// Main class, [context] is the Builcontext of the application at that moment
+/// [child] is the Widget when browsing, [animacino] is the type of animation
 class RuteTransitions {
   final BuildContext context;
   final Widget child;
@@ -28,11 +31,14 @@ class RuteTransitions {
     }
   }
 
+  /// Normal page push
   void _pushPage(Route route) => Navigator.push(context, route);
 
+  /// Push replacement of the page
   void _pushReplacenmentPage(Route route) =>
       Navigator.pushReplacement(context, route);
 
+  // Code of a normal transition
   void _normalTransition() {
     final route = MaterialPageRoute(builder: (_) => this.child);
 
@@ -41,6 +47,7 @@ class RuteTransitions {
         : this._pushPage(route);
   }
 
+  /// Transition controller with fadeIn
   void _fadeInTransition() {
     final route = PageRouteBuilder(
         pageBuilder: (_, __, ___) => this.child,
