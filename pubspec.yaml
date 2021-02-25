@@ -1,6 +1,6 @@
 name: route_transition_lmg
-description: This package helps to improve the effect of screen transitions in an elegant and easy way to use.
-version: 0.0.3
+description: Este paquete ayuda a mejorar el efecto de las transiciones de pantalla de una manera elegante y fácil de usar..
+version: 0.0.4
 homepage: https://github.com/leonardo4551/route_transitions.git
 
 environment:

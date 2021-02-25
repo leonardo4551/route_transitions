@@ -1,8 +1,8 @@
-# Path transition
+## Transición de ruta
 
-This package helps for the moment of making an ugly, elegant transition, etc.
+Este paquete ayuda en el momento de hacer una transición elegante, fea, etc.
 
-## Example of its use
+## Ejemplo de su uso
 
 ```
 /// [context] es el BuildContext
